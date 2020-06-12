@@ -1,0 +1,349 @@
+body {
+    margin: auto;
+    padding: 0;
+    min-width: 360px;
+    max-width: 720px;
+}
+
+.nameAndDate{
+    display: flex;
+}
+
+
+
+img {
+    border-radius: 100px;
+}
+
+.profile {
+    display: flex;
+    min-width: 360px;
+    max-width: 720px;
+    margin-left: calc(100vw*0.034);
+    margin-right: calc(100vw*0.05);
+    box-sizing: border-box;
+}
+
+.profilePic {
+    width: 27%;
+    margin-top: 14px;
+    z-index: 2;
+}
+    
+.profileInfo {
+    width: 73%;
+    
+}
+
+.firstLastName {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc( (100vw - 360px)/(720 - 360) * (16 - 12) + 16px);
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin-left: 20px;
+    margin-top: 21px;
+    margin-bottom: 10px;
+}
+
+.career {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc( (100vw - 360px)/(720 - 360) * (12 - 9) + 12px);
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #808080;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.advantageBlock {
+    position: relative;
+    right: 29px;
+    width: 100%;
+    background: #FFFBC8;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.advantage {
+    margin: 10px 0px 11px 45px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.services {
+    min-width: 360px;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 10px 30px 0px -15px;
+}
+
+.serviceWord{
+    height: 18.4px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #333333;
+}
+
+.serviceTypes {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+}
+
+.serviceTitle {
+    flex: 7.5;
+}
+
+.serviceCount {
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceValue {
+    display: flex;
+}
+
+.count {
+    text-align: center;
+}
+
+.firstTitle {
+    border-top: 1px solid #DADADA;
+}
+
+.lastTitle {
+    border-bottom: 1px solid #DADADA;
+}
+
+.firstCount {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #DADADA;
+}
+
+.lastCount {
+    border-bottom: 1px solid #DADADA;
+    width: 100%;
+    text-align: center;
+}
+
+.emptyField:before {
+    content: "\a0";
+    
+}
+
+.withoutMarginTop, .boldNumber {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13.1px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.greenColor {
+    background: #B1E19B;
+    border-radius: 0px 3px 3px 0px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.blueColor {
+    background: #ACE2F8;
+    border-radius: 0px 3px 3px 0px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 26px;
+    color: #333333;
+}
+
+
+
+.allServices, .allServicesCount {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback > div {
+    display: flex;
+}
+
+.heartButton {
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.feedbackDiv {
+    margin: 10px;
+}
+
+.feedbackDiv > div {
+    margin: 0px 10px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.feedbackDiv > div > a {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #005DA1;
+}
+
+.feedbackCount {
+    margin: 10px;
+}
+
+.feedbackCount > div {
+    margin: 0px 5px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #333333;
+}
+
+.commentImage {
+    margin-top: 4px;
+}
+
+.nameField {
+    margin: 10px 10px 10px 20px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.dateField {
+    margin: 10px;
+    font-family: Arial;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.commentField {
+    background: #F2FBFF;
+    box-sizing: border-box;
+    margin: 10px 25px 10px 20px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.1);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+   }
+   .commentField::before, .commentField::after {
+    content: ''; 
+    position: absolute;
+    left: 20px; 
+    top: -20px;
+    border-bottom: 10px solid #F2FBFF;
+    border-left: 10px solid #F2FBFF;
+   }
+   .commentField::after {
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+   }
+
+#form {
+    margin-top: 20px;
+    text-align: center;
+    min-width: 360px;
+    max-width: 720px;
+    background: #F2F2F2;
+}
+
+#form > input {
+    margin-top: 20px;
+    width: 90%;
+    height: 63px;
+    border: 1px solid #000000;
+    border-radius: 1px;
+    padding: 0;
+}
+
+#form > #done {
+    width: 281px;
+    height: 43px;
+    background: #FDD639;
+    border-radius: 23px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 34px;
+}
+
+@media(max-width: 489px) {
+    .profileImage {
+        width: calc(100vw*0.255);
+    }
+    .advantage {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

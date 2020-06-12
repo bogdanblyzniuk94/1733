@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Test_Task</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link href="./css/style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+	
+	<section class="profile">
+		<div class="profilePic">
+			<img class="profileImage" src="./img/photo.png">
+		</div>
+		<div class="profileInfo">
+			<div class="firstLastName">Вероника Ростова</div>
+			<div class="career">Менеджер по продажам</div>
+			<div class="advantageBlock">
+				<p class="advantage">Подберу для вас самые лучшие предложения.<br> Мои услуги абсолютно бесплатны</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="services">
+		<div class="serviceTypes">
+			<div class="serviceTitle">
+				<div class="emptyField"></div>
+				<div class="firstTitle">
+					<p class="greenColor">Ручное бронирование</p>
+				</div>
+				<div>
+					<p class="blueColor">Пакетные туры</p>
+				</div>
+				<div class="lastTitle">
+					<p class="blueColor">Отели</p>
+				</div>
+				<div>
+					<p class="allServices">Всего</p>
+				</div>
+			</div>
+			<div class="serviceCount">
+				<div class="serviceWord">Услуг</div>
+				<div class="firstCount">
+					<p class="boldNumber">11</p>
+				</div>
+				<div>
+					<p class="withoutMarginTop">3</p>
+				</div>
+				<div class="lastCount">
+					<p class="withoutMarginTop">1</p>
+				</div>
+				<div>
+					<p class="allServicesCount">15</p>
+				</div>
+			</div>	
+		</div>
+	</section>
+
+	<section class="feedback">
+		<div class="feedbackDiv">
+			<div>Последние отзывы</div>
+			<div><a href="">Все отзывы</a></div>
+		</div>
+		<div class="feedbackCount">
+			<div><button class="heartButton">&#x1f499</button></div>
+			<div>131</div>
+			<div><img class="commentImage" src="./img/comment.png"></div>
+			<div id=commentsNumber>3</div>
+		</div>
+	</section>
+
+	<div id='allComments'>
+		<div class="nameAndDate">
+			<div class="nameField">Самуил</div>
+			<div class="dateField">13 октября 2011</div>
+		</div>
+		<div>
+			<div class="commentField">Привет, Верунь! Ниче себе ты крутая. фотка класс!!!! </div>
+		</div>
+		<div class="nameAndDate">
+			<div class="nameField">Лилия Семёновна</div>
+			<div class="dateField">14 октября 2011</div>
+		</div>
+		<div>
+			<div class="commentField">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?</div>
+		</div>
+		<div class="nameAndDate">
+			<div class="nameField">Лилия Семёновна</div>
+			<div class="dateField">14 октября 2011</div>
+		</div>
+		<div>
+			<div class="commentField">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</div>
+		</div>
+	</div>
+
+	<form name='form' action='' method='post' id='form'  onsubmit='return false'>
+		<input id='name' name='addName' placeholder='Введите имя'></input><br>
+		<input id='input' name='addComment' placeholder='Введите комментарий'></input><br>
+		<input id='done' type='submit' name='send' value='Написать консультанту'>
+	</form>
+
+	
+	<script src="./js/script.js" type='text/javascript'>
+		
+	</script>
+</body>
+</html>
